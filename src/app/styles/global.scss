@@ -1,0 +1,68 @@
+@import "variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  background: white;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  min-block-size: 100vh;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: black;
+  font-family: Inter, serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
